@@ -30,6 +30,12 @@ export const lightTheme = createTheme({
 
     },
 
+    typography: {
+        allVariants: {
+            color: '#112A46'
+        }
+    },
+
     components: {
 
         MuiLink: {
