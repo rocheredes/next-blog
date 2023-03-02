@@ -1,6 +1,6 @@
-import {AppBar, Link, Toolbar} from "@mui/material";
+import React, {useState} from "react";
 import NextLink from 'next/link'
-import {useState} from "react";
+import {AppBar, Box, Button, Container, Link, Toolbar, Typography} from "@mui/material";
 
 export const Navbar = () => {
 
@@ -9,12 +9,27 @@ export const Navbar = () => {
     return (
         <AppBar>
             <Toolbar>
-                <NextLink href='auth/login' passHref>
-                    <Link component={'span'}>
-                        Loginssss
-                    </Link>
+                <Container style={{display:"flex"}}>
+                    <NextLink href="/" passHref className="underline-none">
+                        <Link component='div' sx={{display: 'flex', alignItems: 'baseline'}}>
+                            <Typography variant="h6" fontWeight="700">Blog</Typography>
 
-                </NextLink>
+                        </Link>
+                    </NextLink>
+
+                    <Box flex={1}/>
+
+                    <Box>
+                        <NextLink href={'/auth/login'} passHref>
+                            <Link component={"span"}>
+                                <Button size='small' sx={{borderRadius:'10px', fontWeight:700}}>Login</Button>
+                            </Link>
+                        </NextLink>
+                    </Box>
+
+                </Container>
+
+
             </Toolbar>
         </AppBar>
     )
