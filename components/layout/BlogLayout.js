@@ -1,4 +1,5 @@
 import Head from "next/head";
+import {Navbar} from "../ui/Navbar";
 
 export const BlogLayout = ({children, title, pageDescription, imageFullUrl}) => {
     return (
@@ -15,8 +16,9 @@ export const BlogLayout = ({children, title, pageDescription, imageFullUrl}) => 
                 }
             </Head>
 
+            <Navbar/>
 
-            <main>
+            <main style={{background:"#eaedf2"}}>
                 {children}
             </main>
 
