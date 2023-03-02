@@ -31,10 +31,23 @@ export const lightTheme = createTheme({
     },
 
     components: {
+
         MuiLink: {
             defaultProps: {
                 underline: "none"
             },
+        },
+
+        MuiAppBar: {
+            defaultProps: {
+                elevation: 0
+
+            },
+            styleOverrides: {
+                root: {
+                    background: "#fff",
+                }
+            }
         },
 
         MuiButton: {
