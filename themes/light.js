@@ -28,5 +28,29 @@ export const lightTheme = createTheme({
             contrastText: '#fff'
         },
 
+    },
+
+    components: {
+        MuiLink: {
+            defaultProps: {
+                underline: "none"
+            },
+        },
+
+        MuiButton: {
+            defaultProps: {
+                variant: 'contained',
+                disableElevation: true,
+                color: "primary"
+            },
+
+            styleOverrides: {
+                root: {
+                    textTransform: "none",
+                    boxShadow: "none",
+                }
+            }
+        }
     }
+
 })
