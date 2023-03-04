@@ -1,5 +1,6 @@
 import Head from "next/head";
 import {Navbar} from "../ui/Navbar";
+import {Box} from "@mui/material";
 
 export const BlogLayout = ({children, title, pageDescription, imageFullUrl}) => {
     return (
@@ -18,8 +19,10 @@ export const BlogLayout = ({children, title, pageDescription, imageFullUrl}) => 
 
             <Navbar/>
 
-            <main style={{background:"#eaedf2"}}>
-                {children}
+            <main style={{background: "#eaedf2"}}>
+                <Box sx={{px:2}}>
+                    {children}
+                </Box>
             </main>
 
         </>
