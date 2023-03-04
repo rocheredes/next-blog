@@ -3,7 +3,7 @@ export const posts = [
         id: 1,
         title: '7 common mistakes everyone makes while traveling',
         description: 'For who thoroughly her boy estimating conviction. Removed demands expense account in outward tedious do. Particular way thoroughly unaffected projection favorable Mrs can be projecting own. Thirty it matter enable become admire in giving. See resolved goodness felicity shy civility domestic had but. Drawings offended yet answered Jennings perceive laughing six did far.',
-        image: '/public/images14.jpg',
+        image: 'gallery/images14.jpg',
         tags: ['Marketing', 'Startups', 'Travel'],
         slug: '7-common-mistakes-everyone-makes-while-traveling',
         createdAt: '16-02-2023',
@@ -11,7 +11,7 @@ export const posts = [
             first_name: 'Juan',
             last_name: 'Perez Perez',
             username: 'juanperez',
-            image_profile: '/public/images18.jpg'
+            image_profile: 'gallery/images18.jpg'
         }
     },
 
@@ -19,7 +19,7 @@ export const posts = [
         id: 2,
         title: '7 common mistakes everyone makes while traveling',
         description: 'Particular way thoroughly unaffected projection favorable Mrs can be projecting own. Thirty it matter enable become admire in giving. See resolved goodness felicity shy civility domestic had but. Drawings offended yet answered Jennings perceive laughing six did far.',
-        image: '/public/images20.jpg',
+        image: 'gallery/images20.jpg',
         tags: ['Marketing'],
         slug: '7-common-mistakes-everyone-makes-while-traveling',
         createdAt: '16-02-2023',
@@ -27,7 +27,7 @@ export const posts = [
             first_name: 'Juan',
             last_name: 'Perez Perez',
             username: 'juanperez',
-            image_profile: '/public/images24.jpg'
+            image_profile: 'gallery/images24.jpg'
         }
     },
 
@@ -35,7 +35,7 @@ export const posts = [
         id: 3,
         title: '7 common mistakes ',
         description: 'Thirty it matter enable become admire in giving. See resolved goodness felicity shy civility domestic had but. Drawings offended yet answered Jennings perceive laughing six did far.',
-        image: '/public/images8.jpg',
+        image: 'gallery/images8.jpg',
         tags: ['Marketing', 'Startups'],
         slug: '7-common-mistakes-everyone-makes-while-traveling',
         createdAt: '16-02-2023',
@@ -43,7 +43,7 @@ export const posts = [
             first_name: 'Juan',
             last_name: 'Perez Perez',
             username: 'juanperez',
-            image_profile: '/public/images23.jpg'
+            image_profile: 'gallery/images23.jpg'
         }
     },
 
@@ -51,7 +51,7 @@ export const posts = [
         id: 4,
         title: 'while traveling',
         description: 'For who thoroughly her boy estimating conviction. Removed demands expense account in outward tedious do. Particular way thoroughly unaffected projection favorable Mrs can be projecting own. Thirty it matter enable become admire in giving. See resolved goodness felicity shy civility domestic had but. Drawings offended yet answered Jennings perceive laughing six did far.',
-        image: '/public/images19.jpg',
+        image: 'gallery/images19.jpg',
         tags: ['Marketing', 'Startups', 'Travel'],
         slug: '7-common-mistakes-everyone-makes-while-traveling',
         createdAt: '16-02-2023',
@@ -59,7 +59,7 @@ export const posts = [
             first_name: 'Juan',
             last_name: 'Perez Perez',
             username: 'juanperez',
-            image_profile: '/public/images21.jpg'
+            image_profile: 'gallery/images21.jpg'
         }
     },
 
@@ -67,7 +67,7 @@ export const posts = [
         id: 1,
         title: '7 common mistakes everyone makes while traveling',
         description: 'For who thoroughly her boy estimating conviction. Removed demands expense account in outward tedious do. Particular way thoroughly unaffected projection favorable Mrs can be projecting own. Thirty it matter enable become admire in giving. See resolved goodness felicity shy civility domestic had but. Drawings offended yet answered Jennings perceive laughing six did far.',
-        image: '/public/images10.jpg',
+        image: 'gallery/images10.jpg',
         tags: ['Marketing', 'Startups', 'Travel'],
         slug: '7-common-mistakes-everyone-makes-while-traveling',
         createdAt: '16-02-2023',
@@ -75,7 +75,7 @@ export const posts = [
             first_name: 'Juan',
             last_name: 'Perez Perez',
             username: 'juanperez',
-            image_profile: '/public/images13.jpg'
+            image_profile: 'gallery/images13.jpg'
         }
     },
 ]

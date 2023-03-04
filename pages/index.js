@@ -26,7 +26,7 @@ export default function Home() {
                         </Grid>
                     </Grid>
 
-                    <Box item xs={12} sm={12}>
+                    <Box xs={12} sm={12}>
                         <PostList posts={posts}/>
                     </Box>
                 </Container>
