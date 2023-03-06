@@ -1,10 +1,10 @@
 import React from "react";
-import {Box, Container} from "@mui/material";
+import {Box, Button, Container, Grid} from "@mui/material";
 import {BlogLayout} from "../components/layout/BlogLayout";
 import {PostSlideshow} from "../components/posts/PostSlideshow";
-import Grid from "@mui/material/Grid";
 import {posts} from "../database/posts";
 import {PostList} from "../components/posts/PostList";
+import {LoopOutlined} from "@mui/icons-material";
 
 const imageList = [
     'gallery/images1.jpg',
@@ -19,7 +19,7 @@ export default function Home() {
         <>
             <BlogLayout title={"Home"} pageDescription={"Home Page"}>
 
-                <Container  sx={{mt: 2}}>
+                <Container sx={{mt: 2}}>
                     <Grid container>
                         <Grid item xs={12} sm={12}>
                             <PostSlideshow images={imageList}/>
@@ -29,6 +29,14 @@ export default function Home() {
                     <Box xs={12} sm={12}>
                         <PostList posts={posts}/>
                     </Box>
+
+                    <Box xs={12} sm={12}>
+                        <Button
+                            fullWidth
+                            startIcon={ <LoopOutlined />}
+                        >Load more posts</Button>
+                    </Box>
+
                 </Container>
 
 

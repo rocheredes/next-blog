@@ -18,7 +18,7 @@ export const BlogLayout = ({children, title, pageDescription, imageFullUrl}) => 
 
             <Navbar/>
 
-            <main style={{background: "#eaedf2"}}>
+            <main style={{background: "#eaedf2", marginBottom:"20px"}}>
 
                     {children}
 
