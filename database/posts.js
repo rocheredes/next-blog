@@ -64,7 +64,7 @@ export const posts = [
     },
 
     {
-        id: 1,
+        id: 5,
         title: '7 common mistakes everyone makes while traveling',
         description: 'For who thoroughly her boy estimating conviction. Removed demands expense account in outward tedious do. Particular way thoroughly unaffected projection favorable Mrs can be projecting own. Thirty it matter enable become admire in giving. See resolved goodness felicity shy civility domestic had but. Drawings offended yet answered Jennings perceive laughing six did far.',
         image: 'gallery/images10.jpg',
