@@ -8,6 +8,6 @@ RUN npm install
 
 RUN npm run build
 
-EXPOSE 3000
+EXPOSE 3000 80 443
 
-CMD ['npm','start']
+RUN npm run start
