@@ -1,12 +1,16 @@
-FROM node:16-alpine
+FROM node:latest
 
-WORKDIR .
+RUN mkdir /root/app/
 
-COPY . .
+WORKDIR /root/app/
+
+COPY . /root/app/
 
 RUN npm install
 
 RUN npm run build
 
 EXPOSE 3000
-CMD ['npm','run', 'start']
+
+CMD npm run start
+#CMD ['npm','run', 'start']
