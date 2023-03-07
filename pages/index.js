@@ -7,11 +7,11 @@ import {PostList} from "../components/posts/PostList";
 import {LoopOutlined} from "@mui/icons-material";
 
 const imageList = [
-    'gallery/cat-g153f8c075_1920.jpg',
-    'gallery/cat-ga2548b503_1920.jpg',
-    'gallery/cat-gba079e182_1920.jpg',
-    'gallery/cat-gcc6a9ebe5_1920.jpg',
-    'gallery/wink-g93e9fee41_1920.jpg',
+    '/gallery/cat-g153f8c075_1920.jpg',
+    '/gallery/cat-ga2548b503_1920.jpg',
+    '/gallery/cat-gba079e182_1920.jpg',
+    '/gallery/cat-gcc6a9ebe5_1920.jpg',
+    '/gallery/wink-g93e9fee41_1920.jpg',
 ]
 
 export default function Home() {

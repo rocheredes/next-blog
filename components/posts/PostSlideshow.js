@@ -8,13 +8,15 @@ export const PostSlideshow = ({images}) => {
 
             <Carousel indicators={false}>
                 {
-                    images.map(image => {
+                    images.map((image, index) => {
                         return (
 
-                            <Box sx={{
-                                overflow: "hidden",
+                            <Box
+                                key={index}
+                                sx={{
+                                    overflow: "hidden",
 
-                            }}>
+                                }}>
                                 <CardMedia
                                     component={"img"}
                                     src={image}
@@ -26,40 +28,11 @@ export const PostSlideshow = ({images}) => {
                                     }}
                                 />
                             </Box>
-
-                            // <div key={image}
-                            //      style={{overflow: "hidden", borderRadius: '5px'}}>
-                            //     <img
-                            //         src={image}
-                            //         alt={image}
-                            //         style={{borderRadius: '5px'}}
-                            //     />
-                            // </div>
-
                         )
                     })
                 }
             </Carousel>
 
-            {/*<Slide*/}
-            {/*    easing="ease"*/}
-            {/*>*/}
-            {/*    {*/}
-            {/*        images.map(image => {*/}
-            {/*            return (*/}
-            {/*                <div className={styles['each-slide']} key={image}*/}
-            {/*                     style={{overflow: "hidden"}}>*/}
-            {/*                    <img*/}
-            {/*                        src={image}*/}
-            {/*                        alt={image}*/}
-            {/*                        style={{borderRadius: '5px',}}*/}
-            {/*                    />*/}
-            {/*                </div>*/}
-
-            {/*            )*/}
-            {/*        })*/}
-            {/*    }*/}
-            {/*</Slide>*/}
         </>
     )
 }
