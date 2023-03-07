@@ -6,8 +6,7 @@ COPY . .
 
 RUN npm install
 
-RUN npm run build
+#RUN npm run build
 
-EXPOSE 3000 80 443
-
-RUN npm run start
+EXPOSE 3000
+CMD ['npm','run', 'dev']
