@@ -30,6 +30,7 @@ export const PostList = ({posts}) => {
                                 {
                                     post.tags.map(tag => (
                                         <Chip
+                                            key={tag}
                                             label={tag}
                                             sx={{mr: 1}}
                                             size="small"/>
