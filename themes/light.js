@@ -28,6 +28,11 @@ export const lightTheme = createTheme({
             contrastText: '#fff'
         },
 
+        textMuted: {
+            main: '#6c757d',
+            contrastText: '#000'
+        }
+
     },
 
     typography: {
