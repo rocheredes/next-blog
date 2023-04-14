@@ -3,6 +3,7 @@ import {Avatar, Box, Container, Grid, Typography} from "@mui/material";
 import React from "react";
 import {posts} from "../../database/posts";
 import {PostSingleContent} from "../../components/posts/PostSingleContent";
+import {PostsMostRead} from "../../components/posts/PostsMostRead";
 
 
 const PostSingle = ({post}) => {
@@ -25,8 +26,9 @@ const PostSingle = ({post}) => {
                             sx={{
                                 display: 'flex',
                                 alignItems: 'start',
-                                flexWrap:'wrap',
-                                p:3,
+                                flexWrap: 'wrap',
+                                p: 5,
+                                background: "#f7f8f9"
                             }}
                         >
                             <Avatar
@@ -35,7 +37,7 @@ const PostSingle = ({post}) => {
                                     width: '74px',
                                     height: '74px',
                                     border: 5,
-                                    borderColor: 'error.main',
+                                    borderColor: 'primary.main',
                                     mr: 1
                                 }}
                             />
@@ -53,7 +55,34 @@ const PostSingle = ({post}) => {
 
                             </Box>
 
-                            <Typography sx={{mt:3}}>{user.bio}</Typography>
+                            <Typography color={'textMuted.main'} sx={{mt: 2}}>{user.bio}</Typography>
+                        </Box>
+
+
+                        <Box>
+                            <Typography
+                                component={"h5"}
+                                variant={"h6"}
+                                sx={{
+                                    mt: 3,
+                                    mb: 1,
+                                    fontWeight: "bolder"
+
+                                }}>
+                                Most read
+                            </Typography>
+
+
+                            {
+                                posts.map((post, index) =>
+                                    <PostsMostRead
+                                        key={post.id}
+                                        position={index}
+                                        title={post.title}
+                                        slug={post.slug}
+                                        image={post.image}
+                                    />)
+                            }
                         </Box>
 
                     </Grid>
