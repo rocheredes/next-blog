@@ -29,7 +29,8 @@ export const lightTheme = createTheme({
         },
 
         textMuted: {
-            main: '#6c757d',
+            main: '#595d69',
+            // main: '#6c757d',
             contrastText: '#000'
         }
 
