@@ -1,5 +1,6 @@
 import React from "react";
 import {Box, CardMedia, Chip, Typography} from "@mui/material";
+import {CalendarMonthOutlined, VisibilityOutlined} from "@mui/icons-material";
 
 
 export const PostSingleContent = ({post}) => {
@@ -21,6 +22,19 @@ export const PostSingleContent = ({post}) => {
                     sx={{fontWeight: 700, mt: 1}}>
                     {post.title}
                 </Typography>
+
+                <Box display="flex" align-items="center">
+                    <Box display="flex" align-items="center">
+                        <VisibilityOutlined/>
+                        <Typography ml={1}>256k</Typography>
+                    </Box>
+
+                    <Box display="flex" align-items="center" ml={2}>
+                        <CalendarMonthOutlined/>
+                        <Typography ml={1}>{post.createdAt}</Typography>
+                    </Box>
+
+                </Box>
 
             </Box>
 
