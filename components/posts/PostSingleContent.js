@@ -1,6 +1,7 @@
 import React from "react";
 import {Box, Button, CardMedia, Chip, Grid, Typography, TextField, FormControl} from "@mui/material";
 import {CalendarMonthOutlined, VisibilityOutlined} from "@mui/icons-material";
+import {PostCommentList} from "./PostCommentList";
 
 
 export const PostSingleContent = ({post}) => {
@@ -55,6 +56,10 @@ export const PostSingleContent = ({post}) => {
                     {post.description}
                 </Typography>
 
+            </Box>
+
+            <Box mt={3}>
+                <PostCommentList comments={[]}/>
             </Box>
 
 
