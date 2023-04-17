@@ -6,6 +6,7 @@ export const posts = [
         image: '/gallery/wink-g93e9fee41_1920.jpg',
         tags: ['Marketing', 'Startups', 'Travel'],
         slug: '7-common-mistakes-everyone-makes-while-traveling',
+        views: 45,
         createdAt: '16-02-2023',
         user: {
             first_name: 'Juan',
@@ -23,6 +24,7 @@ export const posts = [
         image: '/gallery/cat-g153f8c075_1920.jpg',
         tags: ['Marketing'],
         slug: '7-common-mistakes-everyone-makes',
+        views: 1025,
         createdAt: '16-02-2023',
         user: {
             first_name: 'Juan',
@@ -40,6 +42,7 @@ export const posts = [
         image: '/gallery/cat-gba079e182_1920.jpg',
         tags: ['Marketing', 'Startups'],
         slug: '7-common-mistakes',
+        views: 100000,
         createdAt: '16-02-2023',
         user: {
             first_name: 'Juan',
@@ -57,6 +60,7 @@ export const posts = [
         image: '/gallery/cat-gdf2e404cc_1920.jpg',
         tags: ['Marketing', 'Startups', 'Travel'],
         slug: '7-common-mistakes-everyone-makes-while',
+        views: 1000000,
         createdAt: '16-02-2023',
         user: {
             first_name: 'Juan',
@@ -74,6 +78,7 @@ export const posts = [
         image: '/gallery/cat-gba079e182_1920.jpg',
         tags: ['Marketing', 'Startups', 'Travel'],
         slug: '7-common-traveling',
+        views: 9,
         createdAt: '16-02-2023',
         user: {
             first_name: 'Juan',
