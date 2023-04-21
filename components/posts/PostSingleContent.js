@@ -58,8 +58,13 @@ export const PostSingleContent = ({post}) => {
 
             </Box>
 
+
+            {/*Coment List*/}
             <Box mt={3}>
-                <PostCommentList comments={[]}/>
+                <PostCommentList key={1} comments={[]}/>
+                <PostCommentList key={2} comments={[]}/>
+                <PostCommentList key={3} comments={[]}/>
+                <PostCommentList key={4} comments={[]}/>
             </Box>
 
 
