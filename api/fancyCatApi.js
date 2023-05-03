@@ -4,4 +4,4 @@ const fancyCatApi = axios.create({
     baseURL: '/api'
 })
 
-export default fancyCatApi()
+export default fancyCatApi
