@@ -1,9 +1,14 @@
-import {createContext} from "react";
+export const AuthProvider = ({children}) => {
 
-const contextProps = {
-    isLoggedIn: false,
-    user: {},
+
+    const registerUser = async (first_name, last_name, email, username, password) => {
+
+        try {
+// const data = await
+        } catch (e) {
+            console.log("Error")
+        }
+
+    }
 
 }
-
-export const AuthContext = createContext({...contextProps})
