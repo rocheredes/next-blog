@@ -7,8 +7,13 @@ export const AuthLayout = ({children, title}) => {
             <Head>
                 <title>{title}</title>
             </Head>
-            <main>
-                <Box display="flex" justifyContent="center" alignItems="center" height="calc(100vh - 200px)">
+            <main style={{
+                height: '100vh',
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center'
+            }}>
+                <Box>
                     {children}
                 </Box>
             </main>
